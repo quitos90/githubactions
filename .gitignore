@@ -1,0 +1,54 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Salidas de compilación
+*/build/
+*/out/
+
+# Archivos generados por Gradle
+.gradle/
+/!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+
+# Archivos de configuración del entorno
+.env
+
+# Configuración de IntelliJ IDEA
+.idea/
+/*.iml
+*.ipr
+*.iws
+
+# Configuración de Eclipse
+.classpath
+.project
+.settings/
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos generados por test
+/test-results/
+/reports/
+
+# Archivos generados por el sistema operativo
+*.swp
+*~
+
+# Caches de Kotlin
+.kotlinc/
+
+# Build scans
+.gradle-scan/
+
+# Archivos creados por herramientas como Lombok o annotation processors
+generated/
+
+# Archivos de empaquetado
+*.jar
+*.war
+*.ear
