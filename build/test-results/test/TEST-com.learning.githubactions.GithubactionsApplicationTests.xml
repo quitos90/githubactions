@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.learning.githubactions.GithubactionsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-10T10:11:22.390Z" hostname="mmartin" time="0.453">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.learning.githubactions.GithubactionsApplicationTests" time="0.453"/>
+  <system-out><![CDATA[12:11:20.394 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.learning.githubactions.GithubactionsApplicationTests]: GithubactionsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:11:20.466 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.learning.githubactions.GithubactionsApplication for test class com.learning.githubactions.GithubactionsApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.0)
+
+2025-06-10T12:11:20.888+02:00  INFO 111676 --- [githubactions] [    Test worker] c.l.g.GithubactionsApplicationTests      : Starting GithubactionsApplicationTests using Java 17.0.15 with PID 111676 (started by mmartin in /home/mmartin/Descargas/githubactions)
+2025-06-10T12:11:20.890+02:00  INFO 111676 --- [githubactions] [    Test worker] c.l.g.GithubactionsApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-06-10T12:11:22.228+02:00  INFO 111676 --- [githubactions] [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-06-10T12:11:22.301+02:00  INFO 111676 --- [githubactions] [    Test worker] c.l.g.GithubactionsApplicationTests      : Started GithubactionsApplicationTests in 1.68 seconds (process running for 2.474)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
